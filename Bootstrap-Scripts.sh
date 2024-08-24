@@ -40,9 +40,9 @@ sudo add-apt-repository ppa:ubuntu-toolchain-r/test
 sudo apt update
 sudo apt install gcc-11 g++-11 -y
 sudo apt-get install build-essential -y
-sudo apt install python3.12-venv -y
+sudo apt install python3.12-venv -y >> ???
 
 # Run in venv
-pip install llama-cpp-python -y
+pip install llama-cpp-python
 sudo apt install python3-dev
 sudo apt install python3-pip
