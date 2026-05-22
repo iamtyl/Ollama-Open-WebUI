@@ -1,3 +1,19 @@
+# Offline Upgrade Ollama
+
+sudo systemctl stop ollama
+Manual download >> https://ollama.com/download/ollama-linux-amd64.tar.zst
+<img width="642" height="241" alt="image" src="https://github.com/user-attachments/assets/f87c2c33-7f8f-4761-aaa8-4c1f9b277921" />
+
+Copy the bin and lib directories into either:
+1. /usr/local
+2. or, /usr
+
+sudo systemctl daemon-reload
+sudo systemctl start ollama
+ollama -v
+
+New version should be reflected.
+
 # Ollama-Open-WebUI
 Quick way to bootstrap your own LLM using Ollama and Open Web-UI.
 
