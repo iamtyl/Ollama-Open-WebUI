@@ -10,7 +10,9 @@ Copy the bin and lib directories into either:
 2. or, /usr
 
 sudo systemctl daemon-reload
+
 sudo systemctl start ollama
+
 ollama -v
 
 New version should be reflected.
