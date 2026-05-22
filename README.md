@@ -7,9 +7,11 @@ Manual download >> https://ollama.com/download/ollama-linux-amd64.tar.zst
 
 Copy the bin and lib directories into either:
 1. /usr/local
+
    sudo cp -r bin /usr/local/
+
    sudo cp -r lib /usr/local/
-2. or, /usr 
+3. or, /usr 
 
 sudo systemctl daemon-reload
 
