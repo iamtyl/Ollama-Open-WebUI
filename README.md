@@ -1,6 +1,7 @@
 # Offline Upgrade Ollama
 
 sudo systemctl stop ollama
+
 Manual download >> https://ollama.com/download/ollama-linux-amd64.tar.zst
 <img width="642" height="241" alt="image" src="https://github.com/user-attachments/assets/f87c2c33-7f8f-4761-aaa8-4c1f9b277921" />
 
